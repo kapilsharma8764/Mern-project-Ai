@@ -1,0 +1,11 @@
+{
+  "name": "squarespace-mern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN server that serves the real, original www.squarespace.com mirror",
+  "scripts": {
+    "install:all": "npm install --prefix server",
+    "dev": "npm run dev --prefix server",
+    "start": "npm start --prefix server"
+  }
+}
